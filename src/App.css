@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+input{
+  border: none !important;
+  background-color:  #3A3B3C !important;
+  outline: none;
+  width: 90%;
+}
+input[type=number], input[type=text] {
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.productMainContainer{
+  margin-top: 50px;
+  position: relative;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainHeaderContainer{
+  background-color:  #3A3B3C !important;
+  height: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mainFooterContainer{
+  box-shadow: rgb(0 0 0 / 37%) 0px 21px 31px 40px
 }
-
-.App-link {
-  color: #61dafb;
+.searchBar{
+  border-radius: 20px;
+  width: 80%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  color: #fff !important;
+}
+.btn-warning {
+  color: #3A3B3C !important;
+}
+table{
+  color: #fff !important;
+}
+table:hover{
+  color: #fff !important;
+}
+.addReceipeForm{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.showReceipeTable{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
